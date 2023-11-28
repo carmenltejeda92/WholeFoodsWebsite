@@ -4,6 +4,10 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='bigFt'>
+            <div className='bottomPicc'>
+                <img id="bottomPic" src="https://assets.fontsinuse.com/use-media/16973/upto-700xauto/56702e13/1/png/whole-foods-market-logo-2008.png" 
+                    width="75px" height="75px"></img>
+            </div>
             <div className='shopping'>
                 <h3>Shopping</h3>
                 <ul>
@@ -43,16 +47,27 @@ function Footer() {
                 <ul>
                     <li><a href="https://www.wholefoodsmarket.com/customer-service">Visit customer care</a></li>
                 </ul>
-                <h3>Connect With Us</h3>
-                <div>
-                    {/* social media imgs */}
+                <div className='help' id="connect">
+                    <h3>Connect With Us</h3>
+                    <div className='socials'>
+                        <img id="fb" src="https://cdn.icon-icons.com/icons2/2985/PNG/512/facebook_social_media_icon_187125.png" 
+                            width ="50px" height="50px"></img>
+                        <img id="twit" src="https://cdn.icon-icons.com/icons2/815/PNG/512/Twitter_I_icon-icons.com_66277.png" 
+                            width ="50px" height="50px"></img>
+                        <img id="insta" src="https://cdn.icon-icons.com/icons2/792/PNG/512/INSTAGRAM_icon-icons.com_65535.png" 
+                            width ="50px" height="50px"></img><br></br>
+                        <img id="pin" src="https://cdn.icon-icons.com/icons2/815/PNG/512/Pinterest_icon-icons.com_66272.png" 
+                            width ="50px" height="50px"></img>
+                        <img id="tube" src="https://cdn.icon-icons.com/icons2/815/PNG/512/Youtube_I_icon-icons.com_66276.png"
+                            width="50px" height="50px"></img>
+                    </div>
+                    <button className='signUp'>Sign up for email</button>
                 </div>
-                <button className='signUp'>Sign up for email</button>
             </div>
         </div>
         <div className='lilFt'>
             <div className='list'>
-                <ul>
+                <ul className='bottomBottom'>
                     <li><a href="https://www.wholefoodsmarket.com/legal/trademarks">Copyright 2023 WholeFoods Market IP, Inc.</a></li>
                     <li><a href="https://www.wholefoodsmarket.com/site-information/privacy-notice">Privacy Notice</a></li>
                     <li><a href="https://www.amazon.com/privacyprefs">Your Adds Privacy Choices</a></li>
