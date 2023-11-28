@@ -26,7 +26,7 @@
 }
 
 
-a{
+.nav > a{
   text-decoration: none;
   color:#004e36;
   font-weight:bold;
@@ -39,6 +39,7 @@ a{
   border-color: transparent;
   font-size: 10pt;
   font-weight: bold;
+  
 }
 
 #seeSales{
@@ -91,4 +92,14 @@ a{
 .adInfo >p{
   font-size: 15pt;
 }
+
+.signUp{
+  background-color: transparent;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  border-color: white;
+}
+
+
 
