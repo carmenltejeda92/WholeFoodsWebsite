@@ -4,7 +4,20 @@
 
 .header{
   display: flex;
-  background-color:green;
+  background-color:#004e36;
+  color: white;
+  width: 100%;
+  height: 100px;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.nav{
+  height: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  font-weight: 3px;
 }
 
 #logo{
@@ -13,6 +26,69 @@
 }
 
 
-#search{
-  height: 30px;
+a{
+  text-decoration: none;
+  color:#004e36;
+  font-weight:bold;
 }
+
+#search{
+  height: 40px;
+  width: 600px;
+  border-radius: 25px;
+  border-color: transparent;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+#seeSales{
+  background-color: #004e36;
+  color: white;
+  border-color: transparent;
+  border-radius: 3px;
+  width: 150px;
+  height: 45px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+#login{
+  display: flex;
+}
+
+
+#cart{
+  display: flex;
+}
+
+.location{
+  display: flex;
+}
+
+.ad{
+  background-image: url("https://kitchenatics.com/wp-content/uploads/2020/09/Cheese-pizza-1.jpg");
+  margin: 20px;
+  background-size: 100% 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.adInfo{
+  background-color: #ffffff;
+  width: 40%;
+  height: 80%;  
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.adInfo > h1{
+  font-size: 45pt;
+}
+
+.adInfo >p{
+  font-size: 15pt;
+}
+
